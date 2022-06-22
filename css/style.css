@@ -1,0 +1,31 @@
+.slider h3, .slider h5, .navbar-fixed a {
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+html a, p, h3, h4, h5 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.highlight {
+	background-image: url(../img/slider/studbee.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.card {
+	opacity: 0.9;
+}
+
+.tags {
+	color: red;
+	font-size: 14px;
+}
+
+.highlight p {
+	font-size: 18px;
+}
