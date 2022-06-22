@@ -1,4 +1,4 @@
-.slider h3, .slider h5, .navbar-fixed a {
+.slider h3, .slider h5, .navbar-fixed a, .page-footer {
 	text-shadow: 2px 2px 2px rgba(0,0,0,0.8)
 }
 
@@ -11,7 +11,7 @@ html a, p, h3, h4, h5 {
 	font-family: 'Varela Round', sans-serif;
 }
 
-.highlight {
+.highlight, .opini, .filsafat, .plesir, .kuliner, .random {
 	background-image: url(../img/slider/studbee.jpg);
 	background-size: 100%;
 	background-attachment: fixed;
@@ -28,4 +28,18 @@ html a, p, h3, h4, h5 {
 
 .highlight p {
 	font-size: 18px;
+}
+
+.page-footer {
+	padding: 10px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+  main {
+    flex: 1 0 auto;
 }
