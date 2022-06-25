@@ -7,7 +7,12 @@ a {
 	color: red;
 }
 
-html a, p, h3, h4, h5 {
+html a,
+html p,
+html h3,
+html h4,
+html h5,
+footer {
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -26,7 +31,12 @@ html a, p, h3, h4, h5 {
 	font-size: 14px;
 }
 
-.highlight p {
+.highlight p,
+.opini p,
+.filsafat p,
+.plesir p,
+.kuliner p,
+.random p {
 	font-size: 18px;
 }
 
@@ -44,3 +54,13 @@ body {
     flex: 1 0 auto;
 }
 
+video {
+	margin-top: 20px;
+}
+
+.batas {
+	background-image: url(../img/slider/eric2.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	opacity: 50%;
+}

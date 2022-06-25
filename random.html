@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>qoyyimbro</title>      
+    </head>
+
+    <body id="home" class="scrollspy">
+
+      <!-- navbar -->
+     <div class="navbar-fixed">
+      <nav class="red darken-1">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="index.html#home" class="brand-logo">qoyyimbro</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html#opini">Opini</a></li>
+              <li><a href="index.html#filsafat">Filsafat</a></li>
+              <li><a href="index.html#plesir">Plesir</a></li>
+             <li><a href="index.html#kuliner">Kuliner</a></li>
+             <li><a href="index.html#random">Random</a></li>
+             <li><a href="index.html#about">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     </div>
+      <!-- akhir navbar -->
+
+      <!-- sidenav -->
+    <ul class="sidenav" id="mobile-nav">      
+      <li><a href="index.html#opini">Opini</a></li>
+      <li><a href="index.html#filsafat">Filsafat</a></li>
+      <li><a href="index.html#plesir">Plesir</a></li>
+      <li><a href="index.html#kuliner">Kuliner</a></li>
+      <li><a href="index.html#random">Random</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+      <!-- akhir sidenav -->
+
+      <!-- slider -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/slider/mehdi.jpg">
+        <div class="caption center-align">
+          <h3 class="red-text">Happy Reading!</h3>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider/plo.jpg">
+      </li>
+      <li>
+        <img src="img/slider/zakaria-ahada.jpg">
+      </li>      
+    </ul>
+  </div>
+      <!-- akhir slider -->
+       
+       <br>
+       <!-- UAS M. Talenta --> 
+    <section id="uastalenta" class="uastalenta scrollspy">
+      <div class="container">
+        <div class="row">
+          <p style="font-size: 18px" class="center"><b>Menetapkan Kriteria Talenta</b><br>
+            <span class="tags">25-06-22 | by: Qoyyim</span></p>
+          <div class="col s12 m6">            
+            <p>
+              Menetapkan kriteria talenta menggunakan pendekatan tiga langkah, yaitu:
+                <ol>
+                   <li>Mengidentifikasi kebutuhan kunci organisasi terhadap manajemen</li>
+                  <li>Menetapkan kelompok level untuk pusat pengembangan talenta </li>
+                  <li>Menetapkan kriteria kompetensi sasaran pengembangan pusat pengembangan talenta</li>
+                </ol>
+              Selengkapnya, klik video berikut.
+            </p>
+          </div>
+          <div class="col s12 m6">
+            <video controls width="300">
+              <source src="vid/talenta.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>         
+    </section> 
+      <!-- Akhir UAS M. Talenta -->
+      <br>
+      <div class="batas center"><br>---ini adalah batas---<br><br></div>
+      <br>
+      <!-- UAS M. Konflik -->
+    <section id="uaskonflik" class="uaskonflik scrollspy">
+      <div class="container">
+        <div class="row">
+          <p style="font-size: 18px" class="center"><b>Harmonis Berkelanjutan Pasca Konflik</b><br>
+            <span class="tags">25-06-22 | by: Qoyyim</span></p>
+          <div class="col s12 m6">            
+            <p>
+              Harmonis berkelanjutan dapat diwujudkan dengan beberapa cara, diantaranya:
+                <ol>
+                   <li>Rekonsiliasi</li>
+                  <li>Membangun agenda bersama</li>
+                </ol>
+              Selengkapnya, klik video berikut.
+            </p>
+          </div>
+          <div class="col s12 m6">
+            <video controls width="300">
+              <source src="vid/konflik.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>         
+    </section>   
+      <!-- Akhir UAS M. Konflik  -->
+      <br>
+      <!-- footer -->
+    <footer class="page-footer red darken-2">
+    
+        <div class="container center">
+            © qoyyimbro 2022
+        </div>
+      
+    </footer>  
+      <!-- akhir footer -->
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+          interval: 3000,
+          indicators: false,
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax);
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+          scrollOffset: 70
+        });
+
+      </script>
+
+    </body>
+  </html>
