@@ -12,6 +12,8 @@ html p,
 html h3,
 html h4,
 html h5,
+.konten ol,
+.batas,
 footer {
 	font-family: 'Varela Round', sans-serif;
 }
